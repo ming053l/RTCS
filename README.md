@@ -1,5 +1,7 @@
 # Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat (TGRS 2024)
 
+The official pytorch implementation of "Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat". Accepted by IEEE Transactions on Geoscience and Remote Sensing (TGRS 2024).
+
 ## [[Paper Link (IEEE)]](https://ieeexplore.ieee.org/document/10474407) [[Paper Link (arXiv)]](https://arxiv.org/abs/2404.15781) [[Model Zoo (.pth, .onnx)]](https://drive.google.com/drive/folders/18UAGosITMAch5f4TwaPuyuj5xYJpmZWK?usp=sharing) 
 
 [Chih-Chung Hsu](https://cchsu.info/), Chih-Yu Jian, Eng-Shen Tu, [Chia-Ming Lee](https://ming053l.github.io/), Guan-Lin Chen
