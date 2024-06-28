@@ -45,7 +45,7 @@ In order to make sure reproduciblity to public, we provide a pre-trained models 
 
 ## Citations
 
-If our work is helpful to your reaearch, please kindly cite our work. Thank!
+If our work is helpful to your research, please kindly cite our work. Thank!
 
 #### BibTeX
     @misc{hsu2024realtimecompressedsensingjoint,
