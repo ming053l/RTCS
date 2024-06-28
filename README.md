@@ -1,4 +1,4 @@
-# Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat (TGRS)
+# Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat (TGRS 2024)
 
 ## [[Paper Link (IEEE)]](https://ieeexplore.ieee.org/document/10474407) [[Paper Link (arXiv)]]([https://allproj002.github.io/drct.github.io/](https://arxiv.org/abs/2404.15781))
 
