@@ -33,8 +33,6 @@ pip install -r requirements.txt
 python test.py
 ```
 
-**Note that the tile mode is also provided for limited GPU memory when testing. You can modify the specific settings of the tile mode in your custom testing option by referring to `./options/test/DRCT_tile_example.yml`.**
-
 ## Citations
 
 If our work is helpful to your reaearch, please kindly cite our work. Thank!
