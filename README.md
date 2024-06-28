@@ -10,8 +10,30 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 Coming Soon. 
 
+## Environment
 
+- [PyTorch >= 1.7](https://pytorch.org/)
+- CUDA >= 11.2
+  
+### Installation
+```
+git clone https://github.com/ming053l/RTCS.git
+conda create --name rtcs python=3.8 -y
+conda activate rtcs
+# CUDA 11.6
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
+cd RTCS
+pip install -r requirements.txt
 
+```
+
+## How To Test
+
+```
+python test.py
+```
+
+**Note that the tile mode is also provided for limited GPU memory when testing. You can modify the specific settings of the tile mode in your custom testing option by referring to `./options/test/DRCT_tile_example.yml`.**
 
 ## Citations
 
