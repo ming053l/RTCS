@@ -8,10 +8,10 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 ## Overview
 
-<img src=".\figure\main_flowchart.png" width="400"/>
+<img src=".\figure\main_flowchart.png" width="1000"/>
 
 
-<img src=".\figure\realtime.png" width="400"/>
+<img src=".\figure\realtime.png" width="800"/>
 
 The RTCS network features a simplified architecture that reduces the required training samples and allows for easy implementation on integer-8-based encoders, facilitating rapid compressed sensing for stripe-like HSI, which exactly matches the moderate design of miniaturized satellites on push broom scanning mechanism. 
 
