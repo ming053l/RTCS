@@ -8,7 +8,7 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 ## Overview
 
-<img src=".\figure\main_flowchart.png" width="700"/>
+<img src=".\figure\main_flowchart.png" width="800"/>
 
 
 <img src=".\figure\realtime.png" width="700"/>
