@@ -28,15 +28,15 @@ If our work is helpful to your reaearch, please kindly cite our work. Thank!
       url={https://arxiv.org/abs/2404.15781}, 
     }
     @ARTICLE{10474407,
-    author={Hsu, Chih-Chung and Jian, Chih-Yu and Tu, Eng-Shen and Lee, Chia-Ming and Chen, Guan-Lin},
-    journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-    title={Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat}, 
-    year={2024},
-    volume={62},
-    number={},
-    pages={1-16},
-    keywords={Hyperspectral imaging;Real-time systems;Sensors;Decoding;Compressed sensing;Training;Task analysis;Compressed sensing;deep learning (DL);hyperspectral image (HSI);hyperspectral restoration;real-time applications},
-    doi={10.1109/TGRS.2024.3378828}
+        author={Hsu, Chih-Chung and Jian, Chih-Yu and Tu, Eng-Shen and Lee, Chia-Ming and Chen, Guan-Lin},
+        journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+        title={Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat}, 
+        year={2024},
+        volume={62},
+        number={},
+        pages={1-16},
+        keywords={Hyperspectral imaging;Real-time systems;Sensors;Decoding;Compressed sensing;Training;Task analysis;Compressed sensing;deep learning (DL);hyperspectral image (HSI);hyperspectral restoration;real-time applications},
+        doi={10.1109/TGRS.2024.3378828}
     }
 
 
