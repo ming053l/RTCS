@@ -8,7 +8,16 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 ## Overview
 
-Coming Soon. 
+<img src=".\figure\main_flowchart.png" width="400"/>
+
+
+<img src=".\figure\realtime.png" width="400"/>
+
+The RTCS network features a simplified architecture that reduces the required training samples and allows for easy implementation on integer-8-based encoders, facilitating rapid compressed sensing for stripe-like HSI, which exactly matches the moderate design of miniaturized satellites on push broom scanning mechanism. 
+
+This contrasts optimization-based models that demand high-precision floating-point operations, making them difficult to deploy on edge devices. 
+
+Our encoder employs an integer-8-compatible linear projection for stripe-like HSI data transmission, ensuring real-time compressed sensing. Furthermore, based on the novel two-streamed architecture, an efficient HSI restoration decoder is proposed for the receiver side, allowing for edge-device reconstruction without needing a sophisticated central server. This is particularly crucial as an increasing number of miniaturized satellites necessitates significant computing resources on the ground station. 
 
 ## Environment
 
@@ -42,6 +51,8 @@ python test.py
 Due to the consideration about patent, now we don't tend to publish training file and model at this repository. If you want to access or train RTCS with your own dataset, please contact the author.
 
 ## Demo
+
+<img src=".\figure\demo.png" width="400"/>
 
 In order to show RTCS's great inference speed and performance, we provide a pre-trained models (ONNX version) and code, please see [this link](https://github.com/ming053l/RTCS/tree/main/Demo_ONNX). 
 
