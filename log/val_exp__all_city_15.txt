@@ -1,0 +1,11 @@
+city-Florida_65npy.npy:	RMSE:29.9054	SAM:1.247
+city-f180608t01p00r08_153npy.npy:	RMSE:0.0056	SAM:1.038
+city-f180608t01p00r06_91npy.npy:	RMSE:0.0047	SAM:1.295
+city-Florida_3npy.npy:	RMSE:31.0947	SAM:1.127
+city-f180601t01p00r11_79npy.npy:	RMSE:0.0038	SAM:1.134
+city-Ottawa_5npy.npy:	RMSE:20.3204	SAM:0.961
+city-Florida_64npy.npy:	RMSE:25.5104	SAM:1.099
+city-Florida_46npy.npy:	RMSE:38.3637	SAM:1.120
+city-FloridaAndGeorgia9_35npy.npy:	RMSE:16.7354	SAM:0.744
+city-FloridaAndGeorgia11_47npy.npy:	RMSE:18.0145	SAM:0.767
+city-Florida_12npy.npy:	RMSE:32.4335	SAM:0.981
