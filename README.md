@@ -14,17 +14,21 @@ Coming Soon.
 
 - [PyTorch >= 1.7](https://pytorch.org/)
 - CUDA >= 11.2
-  
+- python==3.8.18
+- pytorch==1.11.0 
+- cudatoolkit=11.3 
+- onnx==1.14.1
+- onnxruntime==1.16.1
+
 ### Installation
 ```
 git clone https://github.com/ming053l/RTCS.git
 conda create --name rtcs python=3.8 -y
 conda activate rtcs
-# CUDA 11.6
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
+# CUDA 11.3
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 cd RTCS
 pip install -r requirements.txt
-
 ```
 
 ## How To Test
@@ -32,6 +36,10 @@ pip install -r requirements.txt
 ```
 python test.py
 ```
+
+## How To Train
+
+Due to the consideration about patent, now we don't tend to publish training file and model at this repository. If you want to access or train RTCS with your own dataset, please contact the author.
 
 ## Citations
 
