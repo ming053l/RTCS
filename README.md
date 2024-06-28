@@ -52,7 +52,7 @@ Due to the consideration about patent, now we don't tend to publish training fil
 
 ## Demo
 
-<img src=".\figure\demo.png" width="400"/>
+<img src=".\figure\demo.png" width="650"/>
 
 In order to show RTCS's great inference speed and performance, we provide a pre-trained models (ONNX version) and code, please see [this link](https://github.com/ming053l/RTCS/tree/main/Demo_ONNX). 
 
