@@ -18,7 +18,7 @@ The RTCS network features a simplified architecture that reduces the required tr
 Our encoder employs an integer-8-compatible linear projection for stripe-like HSI data transmission, ensuring real-time compressed sensing. Furthermore, based on the novel two-streamed architecture, an efficient HSI restoration decoder is proposed for the receiver side, allowing for edge-device reconstruction without needing a sophisticated central server. This is particularly crucial as an increasing number of miniaturized satellites necessitates significant computing resources on the ground station. 
 
 ## The run-time and computational complexity comparison of the decoders of the proposed RTCS and other methods under different computing platforms
-| Method      | \#Params | FLOPs   | Run-time | PSNR↑ / RMSE↓ / SAM↓ | - | - | - |
+| Method      | \#Params | FLOPs   | Runtime | PSNR↑/ RMSE↓/SAM↓ | - | - | - |
 |-------------|----------|---------|--------------|----------------------|---------------|----------------|---------------------|
 | (DEVICE)      |    -     |     GPU (GTX 1660) |  -                        |     -              |  CPU (i9-9900) | Jetson TX2 GPU | Denver 2 64-bit CPU |
 | AAHCS       | -        | -       | -            | 32.978 / 107.917 / 4.287  | 274.15        | -              | -                   |
