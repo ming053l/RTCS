@@ -1,6 +1,6 @@
 # Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat (TGRS 2024)
 
-## [[Paper Link (IEEE)]](https://ieeexplore.ieee.org/document/10474407) [[Paper Link (arXiv)]](https://arxiv.org/abs/2404.15781)
+## [[Paper Link (IEEE)]](https://ieeexplore.ieee.org/document/10474407) [[Paper Link (arXiv)]](https://arxiv.org/abs/2404.15781) [[Model Zoo]](https://drive.google.com/drive/folders/18UAGosITMAch5f4TwaPuyuj5xYJpmZWK?usp=sharing) [[Data for Validation and Checking Reproducibility or On the Edge Device]](https://drive.google.com/drive/folders/1-NtpDeVgAqbw9JHqFC3G8fM5qMbLMylj?usp=sharing)
 
 [Chih-Chung Hsu](https://cchsu.info/), Chih-Yu Jian, Eng-Shen Tu, [Chia-Ming Lee](https://ming053l.github.io/), Guan-Lin Chen
 
@@ -40,6 +40,8 @@ python test.py
 ## How To Train
 
 Due to the consideration about patent, now we don't tend to publish training file and model at this repository. If you want to access or train RTCS with your own dataset, please contact the author.
+
+In order to make sure reproduciblity to public, we provide a pre-trained models (ONNX version) and code, please see [this link]().
 
 ## Citations
 
