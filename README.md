@@ -41,7 +41,7 @@ python test.py
 
 Due to the consideration about patent, now we don't tend to publish training file and model at this repository. If you want to access or train RTCS with your own dataset, please contact the author.
 
-In order to make sure reproduciblity to public, we provide a pre-trained models (ONNX version) and code, please see [this link]().
+In order to make sure reproduciblity to public, we provide a pre-trained models (ONNX version) and code, please see [this link](https://github.com/ming053l/RTCS/tree/main/Demo_ONNX).
 
 ## Citations
 
