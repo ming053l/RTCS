@@ -2,7 +2,7 @@
 
 ## [[Paper Link (IEEE)]](https://ieeexplore.ieee.org/document/10474407) [[Paper Link (arXiv)]]([https://allproj002.github.io/drct.github.io/](https://arxiv.org/abs/2404.15781))
 
-[Chih-Chung Hsu](https://cchsu.info/), Chih-Yu Jian, Eng-Shen Tu,[Chia-Ming Lee](https://ming053l.github.io/), Guan-Lin Chen
+[Chih-Chung Hsu](https://cchsu.info/), Chih-Yu Jian, Eng-Shen Tu, [Chia-Ming Lee](https://ming053l.github.io/), Guan-Lin Chen
 
 Advanced Computer Vision LAB, National Cheng Kung University
 
