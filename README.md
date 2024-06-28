@@ -52,7 +52,8 @@ Due to the consideration about patent, now we don't tend to publish training fil
 
 ## Demo
 
-<img src=".\figure\demo.png" width="650"/>
+<img src=".\figure\demo.png" width="700"/>
+The false color representation of the visualized hyperspectral image of the (a) ground truth, and the reconstructed counterpart under completely missing (CM) bands from 50-80 using (b) the proposed RTCS, (c) SpeCA, (d) DCSN, (e) H-LSS, (f) TenTV, and (g) AAHCS
 
 In order to show RTCS's great inference speed and performance, we provide a pre-trained models (ONNX version) and code, please see [this link](https://github.com/ming053l/RTCS/tree/main/Demo_ONNX). 
 
