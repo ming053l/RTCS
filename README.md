@@ -20,7 +20,7 @@ Our encoder employs an integer-8-compatible linear projection for stripe-like HS
 ## The run-time and computational complexity comparison of the decoders of the proposed RTCS and other methods under different computing platforms
 | Method      | \#Params | FLOPs   | Runtime | PSNR↑/ RMSE↓/SAM↓ | - | - | - |
 |-------------|----------|---------|--------------|----------------------|---------------|----------------|---------------------|
-| (DEVICE)      |    -     |     GPU (GTX 1660) |  -                        |     -              |  CPU (i9-9900) | Jetson TX2 GPU | Denver 2 64-bit CPU |
+| (DEVICE)      |    -     |   -     |    GPU (GTX 1660) |  -                         |  CPU (i9-9900) | Jetson TX2 GPU | Denver 2 64-bit CPU |
 | AAHCS       | -        | -       | -            | 32.978 / 107.917 / 4.287  | 274.15        | -              | -                   |
 | SpeCA       | -        | -       | -            | 14.585 / 274.191 / 23.659 | 0.1872        | -              | -                   |
 | SPACE       | -        | -       | -            | 24.304 / 479.792 / 6.483  | **274.15**    | -              | -                   |
