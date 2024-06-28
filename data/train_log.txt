@@ -1,0 +1,212 @@
+We are going to train the DAE model using DenseNet!!!
+##########################################################################
+We are going to train DAE
+##########################################################################
+Val MAE=225.135864 and MSE=410.071686 at iter=1600
+Max val in HSI is 10842 and Max val in Rec-HSI is 6945
+Val MAE=218.775543 and MSE=404.421448 at iter=3200
+Max val in HSI is 10842 and Max val in Rec-HSI is 6020
+Val MAE=208.477142 and MSE=397.043701 at iter=4800
+Max val in HSI is 10842 and Max val in Rec-HSI is 6790
+Val MAE=221.770309 and MSE=400.231384 at iter=6400
+Max val in HSI is 10842 and Max val in Rec-HSI is 7351
+Val MAE=231.627274 and MSE=416.237061 at iter=8000
+Max val in HSI is 10842 and Max val in Rec-HSI is 6819
+Val MAE=219.330658 and MSE=407.369598 at iter=9600
+Max val in HSI is 10842 and Max val in Rec-HSI is 7202
+Val MAE=181.409348 and MSE=301.927155 at iter=11200
+Max val in HSI is 10842 and Max val in Rec-HSI is 8963
+Val MAE=155.111603 and MSE=258.408051 at iter=12800
+Max val in HSI is 10842 and Max val in Rec-HSI is 10048
+Val MAE=146.081528 and MSE=248.438187 at iter=14400
+Max val in HSI is 10842 and Max val in Rec-HSI is 10282
+Val MAE=133.005493 and MSE=227.237106 at iter=16000
+Max val in HSI is 10842 and Max val in Rec-HSI is 9483
+Val MAE=130.289383 and MSE=230.684479 at iter=17600
+Max val in HSI is 10842 and Max val in Rec-HSI is 10838
+Val MAE=145.244339 and MSE=260.164551 at iter=19200
+Max val in HSI is 10842 and Max val in Rec-HSI is 6640
+Val MAE=118.833176 and MSE=213.527634 at iter=20800
+Max val in HSI is 10842 and Max val in Rec-HSI is 9645
+Val MAE=132.217606 and MSE=231.768311 at iter=22400
+Max val in HSI is 10842 and Max val in Rec-HSI is 9496
+Val MAE=137.093903 and MSE=237.686035 at iter=24000
+Max val in HSI is 10842 and Max val in Rec-HSI is 9098
+Val MAE=124.769997 and MSE=227.512177 at iter=25600
+Max val in HSI is 10842 and Max val in Rec-HSI is 10210
+Val MAE=124.283997 and MSE=218.075439 at iter=27200
+Max val in HSI is 10842 and Max val in Rec-HSI is 8927
+Val MAE=118.544899 and MSE=215.045242 at iter=28800
+Max val in HSI is 10842 and Max val in Rec-HSI is 9552
+Val MAE=115.905533 and MSE=212.326569 at iter=30400
+Max val in HSI is 10842 and Max val in Rec-HSI is 8232
+Val MAE=109.242233 and MSE=202.125824 at iter=32000
+Max val in HSI is 10842 and Max val in Rec-HSI is 6969
+Val MAE=123.703201 and MSE=228.530792 at iter=33600
+Max val in HSI is 10842 and Max val in Rec-HSI is 9343
+Val MAE=118.181229 and MSE=214.879440 at iter=35200
+Max val in HSI is 10842 and Max val in Rec-HSI is 9003
+Val MAE=110.836464 and MSE=207.137131 at iter=36800
+Max val in HSI is 10842 and Max val in Rec-HSI is 8692
+Val MAE=109.225540 and MSE=201.581024 at iter=38400
+Max val in HSI is 10842 and Max val in Rec-HSI is 9108
+Val MAE=114.122658 and MSE=199.422943 at iter=40000
+Max val in HSI is 10842 and Max val in Rec-HSI is 7831
+Val MAE=117.942947 and MSE=208.925629 at iter=41600
+Max val in HSI is 10842 and Max val in Rec-HSI is 7733
+Val MAE=123.469948 and MSE=212.631744 at iter=43200
+Max val in HSI is 10842 and Max val in Rec-HSI is 7489
+Val MAE=114.913437 and MSE=196.782135 at iter=44800
+Max val in HSI is 10842 and Max val in Rec-HSI is 8047
+Val MAE=114.805908 and MSE=198.293335 at iter=46400
+Max val in HSI is 10842 and Max val in Rec-HSI is 8888
+Val MAE=122.307816 and MSE=213.629105 at iter=48000
+Max val in HSI is 10842 and Max val in Rec-HSI is 8626
+Val MAE=104.588120 and MSE=196.331635 at iter=49600
+Max val in HSI is 10842 and Max val in Rec-HSI is 7338
+Val MAE=113.648209 and MSE=199.074249 at iter=51200
+Max val in HSI is 10842 and Max val in Rec-HSI is 8598
+Val MAE=110.441994 and MSE=193.502975 at iter=52800
+Max val in HSI is 10842 and Max val in Rec-HSI is 8304
+Val MAE=118.467079 and MSE=229.221405 at iter=54400
+Max val in HSI is 10842 and Max val in Rec-HSI is 6291
+Val MAE=120.524246 and MSE=210.902634 at iter=56000
+Max val in HSI is 10842 and Max val in Rec-HSI is 8214
+Val MAE=99.728592 and MSE=187.671112 at iter=57600
+Max val in HSI is 10842 and Max val in Rec-HSI is 9599
+Val MAE=124.638405 and MSE=217.551117 at iter=59200
+Max val in HSI is 10842 and Max val in Rec-HSI is 7305
+Val MAE=109.255043 and MSE=198.953644 at iter=60800
+Max val in HSI is 10842 and Max val in Rec-HSI is 9151
+Val MAE=105.656700 and MSE=199.106689 at iter=62400
+Max val in HSI is 10842 and Max val in Rec-HSI is 8662
+Val MAE=111.567764 and MSE=201.169403 at iter=64000
+Max val in HSI is 10842 and Max val in Rec-HSI is 9221
+Val MAE=98.707214 and MSE=181.065323 at iter=65600
+Max val in HSI is 10842 and Max val in Rec-HSI is 9815
+Val MAE=117.978516 and MSE=229.944778 at iter=67200
+Max val in HSI is 10842 and Max val in Rec-HSI is 6040
+Val MAE=126.623215 and MSE=214.575104 at iter=68800
+Max val in HSI is 10842 and Max val in Rec-HSI is 8526
+Val MAE=99.822266 and MSE=188.356171 at iter=70400
+Max val in HSI is 10842 and Max val in Rec-HSI is 9780
+Val MAE=101.757851 and MSE=185.613800 at iter=72000
+Max val in HSI is 10842 and Max val in Rec-HSI is 8690
+Val MAE=109.720459 and MSE=199.632187 at iter=73600
+Max val in HSI is 10842 and Max val in Rec-HSI is 9348
+Val MAE=105.981544 and MSE=193.801117 at iter=75200
+Max val in HSI is 10842 and Max val in Rec-HSI is 8695
+Val MAE=100.577133 and MSE=185.079910 at iter=76800
+Max val in HSI is 10842 and Max val in Rec-HSI is 10859
+Val MAE=98.043007 and MSE=178.562241 at iter=78400
+Max val in HSI is 10842 and Max val in Rec-HSI is 9991
+Val MAE=99.520096 and MSE=179.683456 at iter=80000
+Max val in HSI is 10842 and Max val in Rec-HSI is 7847
+Val MAE=109.073990 and MSE=198.472809 at iter=81600
+Max val in HSI is 10842 and Max val in Rec-HSI is 7781
+We are going to train the DAE model using DenseNet!!!
+##########################################################################
+We are going to train DAE
+##########################################################################
+Val MAE=124.214767 and MSE=216.612946 at iter=1600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3006
+Val MAE=115.561081 and MSE=210.244827 at iter=3200
+Max val in HSI is 4437 and Max val in Rec-HSI is 2907
+Val MAE=100.917679 and MSE=182.836670 at iter=4800
+Max val in HSI is 4437 and Max val in Rec-HSI is 2917
+Val MAE=97.130997 and MSE=178.589371 at iter=6400
+Max val in HSI is 4437 and Max val in Rec-HSI is 2799
+Val MAE=96.314400 and MSE=182.925812 at iter=8000
+Max val in HSI is 4437 and Max val in Rec-HSI is 2906
+Val MAE=102.854736 and MSE=184.316193 at iter=9600
+Max val in HSI is 4437 and Max val in Rec-HSI is 2775
+Val MAE=100.741333 and MSE=180.700745 at iter=11200
+Max val in HSI is 4437 and Max val in Rec-HSI is 2948
+Val MAE=97.231522 and MSE=174.447922 at iter=12800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3051
+Val MAE=116.791115 and MSE=205.492874 at iter=14400
+Max val in HSI is 4437 and Max val in Rec-HSI is 2887
+Val MAE=99.254486 and MSE=183.867508 at iter=16000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3263
+Val MAE=99.733086 and MSE=181.851807 at iter=17600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3001
+Val MAE=92.109589 and MSE=172.842087 at iter=19200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3054
+Val MAE=93.552216 and MSE=175.683716 at iter=20800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3112
+Val MAE=89.321426 and MSE=168.170502 at iter=22400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3197
+Val MAE=91.936386 and MSE=169.215210 at iter=24000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3029
+Val MAE=89.305771 and MSE=171.526535 at iter=25600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3314
+Val MAE=118.515793 and MSE=207.463089 at iter=27200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3208
+Val MAE=93.022385 and MSE=171.552032 at iter=28800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3343
+Val MAE=98.508499 and MSE=181.855804 at iter=30400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3277
+Val MAE=96.753578 and MSE=177.721802 at iter=32000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3084
+Val MAE=105.082420 and MSE=187.384476 at iter=33600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3166
+Val MAE=91.364136 and MSE=172.750732 at iter=35200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3174
+Val MAE=88.026878 and MSE=167.782440 at iter=36800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3279
+Val MAE=95.685623 and MSE=174.016083 at iter=38400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3364
+Val MAE=99.499962 and MSE=184.097336 at iter=40000
+Max val in HSI is 4437 and Max val in Rec-HSI is 2984
+Val MAE=86.141922 and MSE=165.005524 at iter=41600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3344
+Val MAE=86.901100 and MSE=164.306641 at iter=43200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3003
+Val MAE=90.810844 and MSE=177.656647 at iter=44800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3267
+Val MAE=89.090752 and MSE=165.134918 at iter=46400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3114
+Val MAE=94.454735 and MSE=175.206131 at iter=48000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3254
+Val MAE=96.774170 and MSE=182.361740 at iter=49600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3162
+Val MAE=87.878502 and MSE=168.292023 at iter=51200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3346
+Val MAE=92.256561 and MSE=176.501312 at iter=52800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3225
+Val MAE=94.896027 and MSE=167.874573 at iter=54400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3363
+Val MAE=91.374657 and MSE=177.105255 at iter=56000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3094
+Val MAE=97.078796 and MSE=177.523560 at iter=57600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3126
+Val MAE=98.581322 and MSE=181.429764 at iter=59200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3234
+Val MAE=104.202599 and MSE=183.280365 at iter=60800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3174
+Val MAE=84.982178 and MSE=163.324615 at iter=62400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3140
+Val MAE=98.321182 and MSE=185.750366 at iter=64000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3098
+Val MAE=84.886986 and MSE=163.265167 at iter=65600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3221
+Val MAE=84.958786 and MSE=161.141754 at iter=67200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3371
+Val MAE=92.019821 and MSE=165.578934 at iter=68800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3388
+Val MAE=84.228836 and MSE=162.171631 at iter=70400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3191
+Val MAE=92.514122 and MSE=175.384552 at iter=72000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3047
+Val MAE=106.536926 and MSE=184.025864 at iter=73600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3101
+Val MAE=93.594299 and MSE=172.707764 at iter=75200
+Max val in HSI is 4437 and Max val in Rec-HSI is 3229
+Val MAE=87.400429 and MSE=168.534286 at iter=76800
+Max val in HSI is 4437 and Max val in Rec-HSI is 3171
+Val MAE=81.675964 and MSE=158.567825 at iter=78400
+Max val in HSI is 4437 and Max val in Rec-HSI is 3252
+Val MAE=82.219666 and MSE=160.321365 at iter=80000
+Max val in HSI is 4437 and Max val in Rec-HSI is 3312
+Val MAE=83.487328 and MSE=160.397049 at iter=81600
+Max val in HSI is 4437 and Max val in Rec-HSI is 3365

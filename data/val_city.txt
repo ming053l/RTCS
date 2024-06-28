@@ -1,0 +1,11 @@
+city/Florida_65npy.npy
+city/f180608t01p00r08_153npy.npy
+city/f180608t01p00r06_91npy.npy
+city/Florida_3npy.npy
+city/f180601t01p00r11_79npy.npy
+city/Ottawa_5npy.npy
+city/Florida_64npy.npy
+city/Florida_46npy.npy
+city/FloridaAndGeorgia9_35npy.npy
+city/FloridaAndGeorgia11_47npy.npy
+city/Florida_12npy.npy
