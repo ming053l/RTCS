@@ -1,2 +1,2 @@
-# RTCS
-Accepted by IEEE Transactions on Geoscience and Remote Sensing (TGRS 2024)
+## Real-Time Compressed Sensing for Joint Hyperspectral Image Transmission and Restoration for CubeSat
+Coming Soon.
