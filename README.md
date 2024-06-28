@@ -18,17 +18,16 @@ The RTCS network features a simplified architecture that reduces the required tr
 Our encoder employs an integer-8-compatible linear projection for stripe-like HSI data transmission, ensuring real-time compressed sensing. Furthermore, based on the novel two-streamed architecture, an efficient HSI restoration decoder is proposed for the receiver side, allowing for edge-device reconstruction without needing a sophisticated central server. This is particularly crucial as an increasing number of miniaturized satellites necessitates significant computing resources on the ground station. 
 
 ## The run-time and computational complexity comparison of the decoders of the proposed RTCS and other methods under different computing platforms
-
 | Method      | \#Params | FLOPs   | Run-time | PSNR↑ / RMSE↓ / SAM↓ | - | - | - |
 |-------------|----------|---------|--------------|----------------------|---------------|----------------|---------------------|
-| DEVICE      |    -     |     GPU (GTX 1660) |  -     |  -                   |     -              |  CPU (i9-9900) | Jetson TX2 GPU | Denver 2 64-bit CPU |
+| (DEVICE)      |    -     |     GPU (GTX 1660) |  -                        |     -              |  CPU (i9-9900) | Jetson TX2 GPU | Denver 2 64-bit CPU |
 | AAHCS       | -        | -       | -            | 32.978 / 107.917 / 4.287  | 274.15        | -              | -                   |
 | SpeCA       | -        | -       | -            | 14.585 / 274.191 / 23.659 | 0.1872        | -              | -                   |
 | SPACE       | -        | -       | -            | 24.304 / 479.792 / 6.483  | **274.15**    | -              | -                   |
 | SpeCA       | -        | -       | -            | 16.830 / 386.398 / 17.094 | 0.257         | -              | -                   |
 | DCSN        | 11.95M   | 0.866G  | 0.035        | 32.703 / 70.471 / 1.893   | 0.431         | 0.033          | 3.85                |
 | DCSN-TVM    | 11.95M   | 0.866G  | 0.023        | 32.703 / 70.471 / 1.893   | 0.383         | 0.025          | 2.119               |
-|-------------|----------|---------|--------------|---------------------------|---------------|----------------|---------------------|
+|-------------|----------|---------|--------------|----------------------|---------------|----------------|---------------------|
 | RTCS        | 6.291M   | 0.297G  | 0.023        | 36.537 / 43.681 / 1.176   | 0.392         | 0.024          | 3.497               |
 | RTCS-TVM    | 6.291M   | 0.297G  | 0.011        | 36.537 / 43.681 / 1.176   | 0.243         | 0.019          | 2.011               |
 
