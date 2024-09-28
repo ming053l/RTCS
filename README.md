@@ -4,7 +4,7 @@ The official pytorch implementation of "Real-Time Compressed Sensing for Joint H
 
 ## [[Paper Link (IEEE)]](https://ieeexplore.ieee.org/document/10474407) [[Paper Link (arXiv)]](https://arxiv.org/abs/2404.15781) [[Model Zoo (.pth, .onnx)]](https://drive.google.com/drive/folders/18UAGosITMAch5f4TwaPuyuj5xYJpmZWK?usp=sharing) 
 
-[Chih-Chung Hsu](https://cchsu.info/), Chih-Yu Jian, Eng-Shen Tu, [Chia-Ming Lee](https://ming053l.github.io/), Guan-Lin Chen
+[Chih-Chung Hsu](https://cchsu.info/), Chih-Yu Jian, [Eng-Shen Tu](https://jamestu-jtjt.github.io/), [Chia-Ming Lee](https://ming053l.github.io/), Guan-Lin Chen
 
 Advanced Computer Vision LAB, National Cheng Kung University
 
@@ -15,7 +15,7 @@ Advanced Computer Vision LAB, National Cheng Kung University
 
 <img src=".\figure\realtime.png" width="700"/>
 
-The RTCS network features a simplified architecture that reduces the required training samples and allows for easy implementation on integer-8-based encoders, facilitating rapid compressed sensing for stripe-like HSI, which exactly matches the moderate design of miniaturized satellites on push broom scanning mechanism. In contrasts, optimization-based models that demand high-precision floating-point operations, making them difficult to deploy on edge devices. 
+The RTCS network features a simplified architecture that reduces the required training samples and allows for easy implementation on integer-8-based encoders, facilitating rapid compressed sensing for stripe-like HSI, which exactly matches the moderate design of miniaturized satellites on push broom scanning mechanism. In contrast, optimization-based models demand high-precision floating-point operations, making them difficult to deploy on edge devices. 
 
 Our encoder employs an integer-8-compatible linear projection for stripe-like HSI data transmission, ensuring real-time compressed sensing. Furthermore, based on the novel two-streamed architecture, an efficient HSI restoration decoder is proposed for the receiver side, allowing for edge-device reconstruction without needing a sophisticated central server. This is particularly crucial as an increasing number of miniaturized satellites necessitates significant computing resources on the ground station. 
 
@@ -63,7 +63,7 @@ python test.py
 
 ## How To Train
 
-Due to the consideration about patent, now we don't tend to publish training file and model at this repository. If you want to access or train RTCS with your own dataset, please contact the author.
+Due to the consideration of patents, we don't tend to publish training files and models in this repository. If you want to access or train RTCS with your own dataset, please contact the author.
 
 ## Demo
 
@@ -71,13 +71,13 @@ Due to the consideration about patent, now we don't tend to publish training fil
  - The false color representation of the visualized hyperspectral image of the (a) ground truth, and the reconstructed counterpart under completely missing (CM) bands from 50-80 using (b) the proposed RTCS, (c) SpeCA, (d) DCSN, (e) H-LSS, (f) TenTV, and (g) AAHCS
 
 
- - In order to show RTCS's great inference speed and performance, we provide a pre-trained models (ONNX version) and code, please see [this link](https://github.com/ming053l/RTCS/tree/main/Demo_ONNX). 
+ - In order to show RTCS's great inference speed and performance, we provide a pre-trained model (ONNX version) and code, please see [this link](https://github.com/ming053l/RTCS/tree/main/Demo_ONNX). 
 
  - And you can also find `.pth` weights on our [Model Zoo](https://drive.google.com/drive/folders/18UAGosITMAch5f4TwaPuyuj5xYJpmZWK?usp=sharing) 
 
 ## Citations
 
-If our work is helpful to your research, please kindly cite our work. Thank!
+If our work is helpful to your research, please kindly cite our work. Thanks!
 
 #### BibTeX
     @misc{hsu2024realtimecompressedsensingjoint,
@@ -103,4 +103,4 @@ If our work is helpful to your research, please kindly cite our work. Thank!
 
 
 ## Contact
-If you have any question, please email zuw408421476@gmail.com to discuss with the author.
+If you have any questions, please email zuw408421476@gmail.com to discuss with the author.
